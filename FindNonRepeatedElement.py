@@ -1,3 +1,5 @@
+# given an array InArr = [1,1,2,2,3,4,4,5,5], find the non-repeated element.
+
 arr = list(map(int, input().split()))
 
 for i in range(len(arr)):
