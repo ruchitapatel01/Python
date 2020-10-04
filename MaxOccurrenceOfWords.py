@@ -16,7 +16,28 @@ for i in words:
             values = dictionary[i]
     else:
         dictionary[i] = 1
+print(dictionary)
 
 for key,val in dictionary.items():
     if val == values:
         print(key,val)
+
+# occurrence = dict()
+#
+# for word in words:
+#     if occurrence.get(word):
+#         occurrence[word] = occurrence[word] + 1
+#     else:
+#         occurrence[word] = 1
+#
+# print(occurrence)
+#
+# Max = max(list(occurrence.values()))
+#
+# for key,val in occurrence.items():
+#     if Max == val:
+#         print(key)
+
+# maximumoccurrence = max(occurrence,key=occurrence.get)
+# print(occurrence.get())
+# print(maximumoccurrence)
