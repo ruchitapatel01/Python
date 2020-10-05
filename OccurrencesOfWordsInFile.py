@@ -14,8 +14,13 @@ for line in file:
                 values = dictionary[words]
         else:
             dictionary[words] = 1
-print(dictionary)
+file.close()
 
-for key,val in dictionary.items():
-    if val == values:
-        print(key,val)
+file = open("TextFile.txt","a")
+file.write("\n" + str(dictionary))
+print(dictionary)
+file.close()
+
+# for key,val in dictionary.items():
+#     if val == values:
+#         print(key,val)

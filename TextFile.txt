@@ -2,3 +2,4 @@ Hello! Welcome to TextFile
 This file is for testing purposes.
 Good Luck!
 Hello! Welcome to TextFile
+{'Hello!': 2, 'Welcome': 2, 'to': 2, 'TextFile': 1, 'This': 1, 'file': 1, 'is': 1, 'for': 1, 'testing': 1, 'purposes.': 1, 'Good': 1, 'Luck!': 1, "TextFile{'Hello!':": 1, '2,': 4, "'Welcome':": 1, "'to':": 1, "'TextFile':": 1, "'This':": 1, '1,': 7, "'file':": 1, "'is':": 1, "'for':": 1, "'testing':": 1, "'purposes.':": 1, "'Good':": 1, "'Luck!':": 1, '1}': 1}
