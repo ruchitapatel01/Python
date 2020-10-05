@@ -17,8 +17,7 @@ for line in file:
 file.close()
 
 file = open("TextFile.txt","a")
-file.write("\n" + str(dictionary))
-print(dictionary)
+file.write("\n" + str(dictionary)),
 file.close()
 
 # for key,val in dictionary.items():
