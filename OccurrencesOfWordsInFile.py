@@ -4,20 +4,23 @@
 
 file = open("TextFile.txt")
 dictionary = dict()
-values = 0
+result = []
 
 for line in file:
     for words in line.split():
         if words in dictionary.keys():
             dictionary[words] = dictionary[words] + 1
-            if dictionary[words] > values:
-                values = dictionary[words]
         else:
             dictionary[words] = 1
+
+for key,val in dictionary.items():
+    if val == 1:
+        result.append(key)
+
 file.close()
 
 file = open("TextFile.txt","a")
-file.write("\n" + str(dictionary)),
+file.write("\n" + str(result)),
 file.close()
 
 # for key,val in dictionary.items():
