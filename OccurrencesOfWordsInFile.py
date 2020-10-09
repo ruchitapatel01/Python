@@ -21,8 +21,7 @@ for file_name in os.listdir("text_file_bunch"):
                 dictionary[words] = 1
 
     for key,val in dictionary.items():
-        if val == 1:
-            result.append(key)
+        result.append(key)
     file.close()
 
     file = open("text_file_bunch\\" + file_name,"a")
