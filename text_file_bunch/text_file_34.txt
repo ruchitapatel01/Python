@@ -1,0 +1,8 @@
+Hey!! I am an excellent geek.
+I am a coder.
+I wanted to be a great geek,
+Anyways, I am a coder
+Hey!! I am an excellent geek.
+I am very sure that I will be a coder
+
+['wanted', 'to', 'great', 'Anyways', 'very', 'sure', 'that', 'will']

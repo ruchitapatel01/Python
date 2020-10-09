@@ -1,0 +1,8 @@
+I am a coder.
+I am very sure that I will be a coder
+I might be a bad geek.
+Anyways, I am a coder
+I am a coder.
+Hey!! I am an excellent geek.
+
+['very', 'sure', 'that', 'will', 'might', 'bad', 'Anyways', 'Hey', 'an', 'excellent']
